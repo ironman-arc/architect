@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Iron Man HUD</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <h1>Iron Man HUD</h1>
+  <canvas id="myChart"></canvas>
+  <script>
+    const ctx = document.getElementById('myChart');
+    new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: ['Legacy', 'Ceremony', 'Sovereignty'],
+        datasets: [{
+          label: 'Metrics',
+          data: [12, 19, 7],
+          backgroundColor: ['red','blue','gold']
+        }]
+      }
+    });
+  </script>
+</body>
+</html>
