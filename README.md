@@ -1,3 +1,11 @@
-# Iron Man HUD
+Iron Man HUD
+A ritual dashboard with Chart.js visualizations and legacy-grade metrics.
+Architecting a mythic ledger — blending code, ceremony, and visualization into planetary artifacts.
 
-Immortalized technical legacy with live metrics, replay mode, and heroic branding.
+Features
+- Chart.js visualizations (bar, line, pie)
+- Role-based sovereignty (admin, editor, viewer)
+- FastAPI/Flask backend for real-time updates
+
+Deployment
+Live HUD: https://ironman-arc.github.io/architect/
